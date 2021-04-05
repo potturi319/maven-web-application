@@ -98,14 +98,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.25.224.250:9980/mithuntechnologies/repository/wallmart-releases/</url>
+	      <name>amazon-release</name>
+	      <url>http://65.0.27.222:9980/repository/amazon-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.25.224.250:9980/mithuntechnologies/repository/wallmart-snapshot/</url>
+	      <name>amazon - snapshot </name>
+	      <url>http://65.0.27.222:9980/repository/amazon-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
