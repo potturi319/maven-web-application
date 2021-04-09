@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Sumanth Steels & CO </h1>
-<h1 align="center">The steel making industry is the bedrock underpinning all other industries. Based on leading-edge technology, SS&Co has played an important role to improve the competitiveness of the Indain steel making industry. Through the abundant experience on plant engineering accumulated from SS's integrated steelworks in Vizag and Andhrapradesh and excellent construction methods, SS&Co has successfully implemented whole range of steel plant projects, both at home and abroad.</h1>
+<h1 align="center">The steel making industry is the bedrock underpinning all other industries. Based on leading-edge technology, SS&CO has played an important role to improve the competitiveness of the Indain steel making industry. Through the abundant experience on plant engineering accumulated from SS's integrated steelworks in Vizag and Andhrapradesh and excellent construction methods, SS&CO has successfully implemented whole range of steel plant projects, both at home and abroad.</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
