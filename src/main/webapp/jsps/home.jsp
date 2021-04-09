@@ -4,17 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
+<title>Sumanth Steels Pvt.Ltd- Home Page</title>
 <link href="images/mithunlogo.jpg" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Mithun Software Solutions. - GitHubWebHook -- 6 AM Batch</h1>
-<h1 align="center"> Welcome to Mithun Software Solutions.......We have a demo on  DevOps with AWS on April 4th week 2021  at 7 PM IST for new batch. , This is a weekdays batch  . MSS- Very Good Training center for DevOps with AWS in Maratha Halli and also for Job Assitance Job Support also...Teaching Real Time scnerios and use cases... Some fake guys are giving the fake reviews dont believe those guys..I am requesting everyone. Please give your reviews in FB and Google.</h1>
+<h1 align="center">Welcome to Sumanth Steels</h1>
+<h1 align="center">The steel making industry is the bedrock underpinning all other industries. Based on leading-edge technology, SS&C has played an important role to improve the competitiveness of the Indain steel making industry. Through the abundant experience on plant engineering accumulated from SS's integrated steelworks in Vizag and Andhrapradesh and excellent construction methods, SS&C has successfully implemented whole range of steel plant projects, both at home and abroad.</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
+		<img src="images/mithunlogo.jpg" alt="" width="150">
 	</span>
 	<span style="font-weight: bold;">
 		sumanth steels pvt.ltd, 
@@ -22,15 +22,15 @@
 		+91-7893866455,
 		potturi2106@gmail.com
 		<br>
-		<a href="mailto:sumanthpadma@gmail.com">Mail to Mithun Technologies</a>
+		<a href="mailto:sumanthpadma@gmail.com">Mail to Sumanth steels</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2021 by <a href="http://sumanthsteels.com/">Mithun Technologies</a> </small></p>
+<p align=center>Sumanth steels - Production, Delvery, Development Center,Testing & Impelementation Of New Composition Steels Based On Requriements.</p>
+<p align=center><small>Copyrights 2021 by <a href="http://sumanthsteels.com/">Sumanth steels</a> </small></p>
 
 </body>
 </html>
