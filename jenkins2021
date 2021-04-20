@@ -13,6 +13,10 @@ stage('sonarqube report')
 {
 sh "${mavenhome}/bin/mvn sonar:sonar"
 }
+stage('jacoco')
+{
+jacoco changeBuildStatus: true, deltaBranchCoverage: '50', deltaClassCoverage: '60', deltaComplexityCoverage: '10', deltaInstructionCoverage: '30', deltaLineCoverage: '20', deltaMethodCoverage: '20', maximumBranchCoverage: '80', maximumClassCoverage: '80', maximumComplexityCoverage: '80', maximumInstructionCoverage: '80', maximumLineCoverage: '80', maximumMethodCoverage: '80', minimumBranchCoverage: '50', minimumClassCoverage: '60', minimumComplexityCoverage: '10', minimumInstructionCoverage: '30', minimumLineCoverage: '20', minimumMethodCoverage: '20'
+}
 stage('uploaded to artifactory')
 {
 sh "${mavenhome}/bin/mvn clean deploy"
