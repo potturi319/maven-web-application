@@ -27,7 +27,7 @@ stage ('bulid,sonar report,upload to nexus,')
 steps {
 sh "mvn clean package"
 sh "mvn sonar:sonar"
-sh "mvn deploy"
+// sh "mvn deploy"
 }
 }
 stage ('deploy in tomcat')
