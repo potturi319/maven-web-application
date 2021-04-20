@@ -1,0 +1,31 @@
+node('master')
+{
+def mavenhome = tool name: "maven3.6.3"
+stage('get code')
+{
+git branch: 'development', credentialsId: '1b1e6399-a0af-4447-92d3-1bb0e771af94', url: 'https://github.com/potturi319/maven-web-application.git'
+}
+stage('bulid')
+{
+sh "${mavenhome}/bin/mvn clean package"
+}
+stage('sonarqube report')
+{
+sh "${mavenhome}/bin/mvn sonar:sonar"
+}
+stage('uploaded to artifactory')
+{
+sh "${mavenhome}/bin/mvn clean deploy"
+}
+stage('deploy to tomcat'){
+sshagent(['5484b8ba-393e-44e9-9263-cbe8417cbbe9']) {
+   sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.127.107.79:/usr/local/tomcat9/webapps"
+}
+}
+stage('email notification'){
+emailext body: '''build report 
+
+regards 
+sumanth''', subject: 'bulid report', to: 'potturi2106@gmail.com'
+}
+}
