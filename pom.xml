@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,10 +21,11 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		 <sonar.host.url>http://13.232.43.77:9000/</sonar.host.url>
-                <sonar.login>admin</sonar.login>
+		 <sonar.host.url>http://65.1.85.178:9000/</sonar.host.url>
+                <sonar.login>21c7d1b8be15cee423f8c3ac29d7d265e5d566af</sonar.login>
+		<!--
 		<sonar.password>528319sl</sonar.password>  
-              
+              -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -99,13 +100,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>amazon-release</name>
-	      <url>http://52.66.248.234:9980/repository/amazon-release/</url>
+	      <url>http://13.233.119.103:9980/repository/amazon-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>amazon - snapshot </name>
-	      <url>http://52.66.248.234:9980/repository/amazon-snapshot/</url>
+	      <url>http://13.233.119.103:9980/repository/amazon-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
