@@ -1,5 +1,6 @@
 node('master')
 {
+properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '3', daysToKeepStr: '', numToKeepStr: '3'))])
 def mavenhome = tool name: "maven3.6.3"
 stage('get code')
 {
