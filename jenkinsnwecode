@@ -2,7 +2,7 @@ pipeline
 {
 agent
 {
-label 'master'
+label 'javaapp'
 }
 tools {
 maven 'maven3.6.2'
