@@ -34,7 +34,7 @@ stage ('deploy in tomcat')
 {
 steps {
 
-sh "rm-rf /usr/local/tomcat9/webapps/maven-web-application.war"
+sh "rm -rf /usr/local/tomcat9/webapps/maven-web-application.war"
 deploy adapters: [tomcat9(credentialsId: '08a6f4d9-0d42-47d6-bb5b-ec9211f0549b', path: '', url: 'http://13.234.204.142:8080/')], contextPath: '/ss&supply', war: '**/maven-web-application.war'
 }
 }
