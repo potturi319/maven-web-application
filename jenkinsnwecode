@@ -5,7 +5,10 @@ agent
 label 'javaapp'
 }
 tools {
+agent('master') 
+{
 maven 'maven3.6.3'
+}
 }
 triggers {
 pollSCM ('* * * * *')
