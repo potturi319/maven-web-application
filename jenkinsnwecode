@@ -2,6 +2,7 @@ pipeline
 {
 agent
 {
+/*
 label 'javaapp'
 }
 tools {
@@ -13,6 +14,7 @@ pollSCM ('* * * * *')
 options {
 buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '3', daysToKeepStr: '', numToKeepStr: '3'))
 }
+*/
 stages
 {
 stage ('get code')
@@ -22,6 +24,7 @@ steps
 git branch: 'development', credentialsId: '1b1e6399-a0af-4447-92d3-1bb0e771af94', url: 'https://github.com/potturi319/maven-web-application.git'
 }
 }
+/*
 stage ('bulid,sonar report,upload to nexus,')
 {
 steps {
@@ -38,5 +41,6 @@ steps {
 deploy adapters: [tomcat9(credentialsId: '08a6f4d9-0d42-47d6-bb5b-ec9211f0549b', path: '', url: 'http://13.234.204.142:8080/')], contextPath: '/ss&supply', war: '**/maven-web-application.war'
 }
 }
+*/
 }
 }
